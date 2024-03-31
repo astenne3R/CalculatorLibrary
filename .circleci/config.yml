@@ -8,7 +8,7 @@ jobs:
   password: $MY_PASSWORD # context / project UI env-var reference
  steps:
 # etape 1 : obtenir le referentiel github
-  - checkout
+ - checkout
   - run: python --version
 # etape 2 : creer un environnement virtuel et creer les dependances
   - run:
