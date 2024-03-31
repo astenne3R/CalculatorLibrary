@@ -6,7 +6,7 @@ jobs:
  auth:
   username: My-user
   password: $MY_PASSWORD # context / project UI env-var reference
-  steps:
+ steps:
 # etape 1 : obtenir le referentiel github
   - checkout
   - run: python --version
