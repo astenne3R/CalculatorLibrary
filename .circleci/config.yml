@@ -4,8 +4,8 @@ jobs:
   docker:
    - image: python:3.10.6
   auth:
-   username: materacmaxence@gmail.com
-   password: Maxcle43!! # context / project UI env-var reference
+   username: My-user
+   password: $MY_PASSWORD # context / project UI env-var reference
   steps:
 # etape 1 : obtenir le referentiel github
    - checkout
